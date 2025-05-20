@@ -1,6 +1,5 @@
 local alpha = require("alpha")
 local dashboard = require("alpha.themes.dashboard")
-local fn = vim.fn
 
 dashboard.section.header.val = {
   "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀",
@@ -21,7 +20,7 @@ dashboard.section.header.val = {
 dashboard.section.buttons.val = {
   dashboard.button("n", " New File", ":ene<CR>"),
   dashboard.button("f", "󰮗 Fuzzy Find", ":Telescope find_files<CR>"),
-  dashboard.button("g", " Live Grep", ":Telescope live_grep<CR>"),
+  dashboard.button("t", " Live Grep", ":Telescope live_grep<CR>"),
   dashboard.button("r", " Recent Files", ":Telescope oldfiles<CR>"),
   dashboard.button("o", " File Tree", ":Oil<CR>"),
   dashboard.button("g", " Open LazyGit", ":LazyGit<CR>"),
