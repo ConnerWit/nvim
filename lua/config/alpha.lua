@@ -20,11 +20,11 @@ dashboard.section.header.val = {
 
 dashboard.section.buttons.val = {
   dashboard.button("n", " New File", ":ene<CR>"),
-  dashboard.button("SPC f f", "󰮗 Fuzzy Find", ":Telescope find_files<CR>"),
-  dashboard.button("SPC f g", " Live Grep", ":Telescope live_grep<CR>"),
-  dashboard.button("SPC r r", " Recent Files", ":Telescope oldfiles<CR>"),
-  dashboard.button("SPC o o", " File Tree", ":Oil<CR>"),
-  dashboard.button("SPC g g", " Open LazyGit", ":LazyGit<CR>"),
+  dashboard.button("f", "󰮗 Fuzzy Find", ":Telescope find_files<CR>"),
+  dashboard.button("g", " Live Grep", ":Telescope live_grep<CR>"),
+  dashboard.button("r", " Recent Files", ":Telescope oldfiles<CR>"),
+  dashboard.button("o", " File Tree", ":Oil<CR>"),
+  dashboard.button("g", " Open LazyGit", ":LazyGit<CR>"),
   dashboard.button("q", "󰗼 Quit NeoVim", ":q<CR>"),
 }
 
