@@ -26,6 +26,8 @@ require("lazy").setup({
   spec = {
     -- import your plugins
     { import = "plugins" },
+    -- import theme selection
+    require("plugins.themes"),
   },
   {
     "echasnovski/mini.surround",
@@ -41,18 +43,9 @@ require("lazy").setup({
       },
     },
   },
-  {
-    "gbprod/nord.nvim",
-    lazy = false,
-    priority = 1000,
-    config = function()
-      require("nord").setup({})
-      vim.cmd.colorscheme("nord")
-    end,
-  },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { "nord" }},
+  install = { colorscheme = { "gruvbox" }},
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
