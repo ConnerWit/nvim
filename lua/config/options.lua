@@ -18,6 +18,7 @@ vim.opt.termguicolors = true
 vim.opt.signcolumn = "yes"
 vim.opt.wrap = false
 vim.opt.scrolloff = 8
+vim.opt.guicursor = ""
 
 -- Diagnostics - always show error messages
 vim.diagnostic.config({

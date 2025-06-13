@@ -4,6 +4,9 @@ vim.g.maplocalleader = " "
 local map = vim.keymap.set
 
 
+-- Local keymaps
+map("n", "<leader>tt", ":vert term<CR>")
+
 -- Telescope keymaps
 map("n", "<leader>ff", ":Telescope find_files<CR>")
 map("n", "<leader>gf", ":Telescope live_grep<CR>")
